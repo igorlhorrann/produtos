@@ -37,11 +37,6 @@ public class Produtos {
     public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
         this.qtdEstoque = qtdEstoque;
     }
-
-    // Método para calcular o valor total em estoque
-    public double calcularValorTotalEmEstoque() {
-        return preco * qtdEstoque;
-    }
     
     
 }
